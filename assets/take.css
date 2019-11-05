@@ -1,0 +1,30 @@
+
+CSS
+.Programao {
+  width: 221px;
+  height: 45px;
+  object-fit: contain;
+  font-family: Cairo;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.89;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.Palestrante {
+    width: 221px;
+    height: 45px;
+    object-fit: contain;
+    font-family: Cairo;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.89;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
