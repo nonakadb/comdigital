@@ -17,7 +17,7 @@
         <div class="col-md-12 d-flex justify-content-end mt-5 mb-5">
           <!-- <a href="">Programação</a>
           <a href="">Palestrante</a> -->
-          <a href="atendimento-ao-cliente.html">Atendimento</a>
+          <a href="index.html">Início</a>
           <button onclick="openSympla()">Compre seu ingresso!</button>
         </div>
         <div class="col-md-12 d-flex flex-column align-items-start">
@@ -29,31 +29,18 @@
     </div>
     <div class="row flex-column mb-1 align-items-center">
       <div class="container mt-5">
-        <div class="col-md-12 d-flex justify-content-end mb-5">
-          <div class="d-flex flex-row mb-5">
-            <img src="assets/img/Denise.png" class="palestra">
-            <div class="d-flex flex-column">
-              <h2>A palestrante</h2>
-              <p>Kellber Ruan: Mais conhecido como Bim, especialista em CRM e Retenção de Clientes, criador da marca Meia na Canela, Analista de Mercado na Dito CRM, graduando em Relações Públicas pela Una e totalmente pirado pelas conexões humanas.<br><br>
-                Denise do Vale: Especialista em Relacionamento com o Cliente, Desenvolvimento e capacitação de pessoas, Especialista em Customer Success. Atualmente representa o CS e atua em estratégias de Growth Hacking  na Revex.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12 d-flex jstify-content-between mt-5">
-          <div onclick="openAttendance()" class="d-flex flex-column pr-5 attendance">
-            <h2>Atendimento</h2>
-            <p>Saiba quais são as melhores práticas e ferramentas do mercado e como utilizá-las para aumentar os níveis de satisfação dos seus clientes.
+        <h1>Atendimento</h1>
+      <h2>  Como gerir melhor o atendimento de pequenas empresas?<br><br>
+Saiba o real impacto de um bom atendimento 
 
-            </p>
-          </div>
-          <div onclick="openSuccess()" class="d-flex flex-column pl-5 success">
-            <h2>Sucesso do cliente</h2>
-            <p> Entenda como o cliente utiliza o seu produto e ensine-o todas as funcionalidades, ganhando valor agregado e satisfação durante a experiência
+Entender a importância de uma boa gestão do relacionamento com seu cliente é uma peça fundamental para se fazer um bom atendimento, e isso se tornou parte do negócio principal de muitas empresas. O fato aqui é que o desafio principal não é apenas atrair, e sim, trabalhar para que o cliente obtenha satisfação e seja fiel a sua marca.
+Um cliente bem atendido e satisfeito cria laços com a empresa e continua consumindo seus produtos e serviços. Por outro lado, se ele tem uma experiência ruim, tem motivos para abandonar a marca e procurar melhores condições nos concorrentes.
+A área de gestão de atendimento tem tido mais visibilidade graças a um modelo promissor, o Costumer Centric . Esse modelo trouxe muita competitividade quando o assunto é experiência do cliente e está  fazendo com que a cada dia mais empreses se adequem ao novo “padrão de qualidade” exigido pelos usuários.
+Uma forma dar mais agilidade ao atendimento é buscando ajuda de algum software que automatize uma parte das demandas. Hoje existem empresas como a Take, por exemplo, que é referência de mercado quando o assunto é chatbot. 
 
-            </p>
-          </div>
-        </div>
+Os chatbots atuam de duas maneiras, Chatbots baseados em regras que são os bots que funcionam por comandos específicos (ou palavras-chave), ou seja, se você falar algo que ele não conhece, ele não vai saber como agir. O outro bot muito utilizado é aquele baseado em inteligência artificial, ou seja, eles têm a capacidade de entender o que você quer dizer com base naquilo que você escreve ou pergunta.</h2> 
+
+
       </div>
     </div>
     <div class="row flex-column justify-content-center">
@@ -61,6 +48,7 @@
         <div class="col-md-6">
           <h4>
                 Aprenda a satisfazer seus clientes de maneira tão plena que eles se tornarão os melhores vendedores do seu negócio.
+                
           </h4>
           <button onclick="openSympla()" class="btn-blue">Compre seu ingresso</button>
         </div>
@@ -73,7 +61,7 @@
           </div>
           <div class="col-md-9">
             <h4>
-                    Garanta já o seu ingresso através da plataforma Sympla
+       Garanta já o seu ingresso através da plataforma Sympla.
             </h4>
             <button onclick="openSympla()">Compre seu ingresso</button>
         </div>
@@ -86,27 +74,13 @@
   function openSympla () {
     window.open("https://www.sympla.com.br/comunicacao-digital---a-nova-exigencia-do-mercado__707589")
   }
-  function openAttendance () {
-    window.location.assign("atendimento-ao-cliente.html")
-  }
-  function openSuccess () {
-    window.location.assign("teste.html")
-  }
 </script>
 
-<style lang="css">
-    p {
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.56;
-  letter-spacing: normal;
-  text-align: left;
-  color: #707070;
-}
 
-    h4 {
+
+
+<style lang="css">
+h4 {
     font-family: Impact;
   font-size: 29px;
   font-weight: normal;
@@ -123,17 +97,17 @@
     color: #1a2438;
     }
     h2{
-    font-family: SegoeUI;
-    text-justify: auto;
-    font-family: Impact;
-    font-size: 33px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.23;
-    letter-spacing: normal;
-    text-align: left;
-    color: #1a2438
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  text-align:justify;
+  padding: 40px;
+
 }
   .container {
     width: 100%;
@@ -187,12 +161,6 @@
     top: -15rem;
     left: -3rem;
   }
-  .row:nth-child(2) .attendance {
-    cursor: pointer;
-  }
-  .row:nth-child(2) .success {
-    cursor: pointer;
-  }
   .row:nth-child(2) .bolotinha1 {
     position: absolute;
     z-index: auto;
@@ -201,7 +169,7 @@
     left: -3rem;
   }
   .row:nth-child(2) .palestra {
-    width: 250px;
+    width: 280px;
     position: absolute;
     top: -12rem;
     left: 0;
