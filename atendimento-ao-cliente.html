@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="assets/take.css" rel="stylesheet">  
+    <link rel="icon" href="assets/img/Rectangle 6.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -58,7 +59,7 @@ Os chatbots atuam de duas maneiras, Chatbots baseados em regras que são os bots
     </div>
     <div class="row align-items-center">
       <div class="container d-flex flex-row">
-        <div class="col-md-3">
+            <div class="col-md-3 d-flex align-items-center">
         <a href="index.html"> 
             <img src="assets/img/writer.jpeg" class="back-writer"></a>
           </div>
@@ -66,7 +67,7 @@ Os chatbots atuam de duas maneiras, Chatbots baseados em regras que são os bots
             <h4>
        Garanta já o seu ingresso através da plataforma Sympla.
             </h4>
-            <button onclick="openSympla()">Compre seu ingresso</button>
+            <div id="sympla-widget-707589" height="auto"></div> <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/707589"></script>
         </div>
       </div>
     </div>
@@ -139,6 +140,12 @@ h4 {
     background-repeat: no-repeat;
     background-size: 100%;
   }
+  .row:nth-child(1) a {
+    color: #ffff;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 3rem!important;
+  }
   .row:nth-child(1) h1 {
     color: #ffff;
   }
@@ -180,6 +187,7 @@ h4 {
   .row:nth-child(2) .col-md-12:nth-child(2) {
     margin: 10rem 0 !important;
   }
+  
   .row:nth-child(2) p {
     max-width: 95rem;
   }

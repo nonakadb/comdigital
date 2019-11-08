@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="assets/take.css" rel="stylesheet">  
+    <link rel="icon" href="assets/img/Rectangle 6.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -17,51 +18,61 @@
         <div class="col-md-12 d-flex justify-content-end mt-5 mb-5">
           <!-- <a href="">Programação</a>
           <a href="">Palestrante</a> -->
+          <a href="atendimento-ao-cliente.html" class="d-flex align-items-center mr-3">Atendimento</a>
           <button onclick="openSympla()">Compre seu ingresso!</button>
         </div>
         <div class="col-md-12 d-flex flex-column align-items-start">
-          <h1 class="mb-5">Workshop sobre comunicação digital 
-                <br> e as vantagens dela para o seu negócio</h1>
+          <h1 class="mb-5">
+                Comunicação digital
+            <br> a nova exigência do mercado 
+          </h1><h2>Cowork Dynamo Premium - Unidade Lourdes <br>
+            |  Av. João Pinheiro, 274, de 19h às 21h</h2>
           <button onclick="openSympla()">Compre seu ingresso!</button>
         </div>
       </div>
     </div>
     <div class="row flex-column mb-1 align-items-center">
       <div class="container mt-5">
-        <div class="col-md-12 d-flex justify-content-end mb-5">
+        <div class="col-md-12 d-flex justify-content-end mt-5">
           <div class="d-flex flex-row mb-5">
-            <img src="assets/img/Palestrantes.png" class="palestra">
-            <img src="assets/img/bolotinha.png" class="bolotinha1">
+            <img src="assets/img/denise.png" class="palestra">
+            <img src="assets/img/dito.jpeg" class="dito">
             <div class="d-flex flex-column">
-              <h2 style="color:#bbd303">Os palestrantes</h2>
-              <p> <strong>Denise do Vale:</strong> especialista em Relacionamento com o Cliente, Desenvolvimento e capacitação de pessoas, Especialista em Customer Success. Atualmente representa o CS e atua em estratégias de Growth Hacking  na Revex.
-                  <strong> Kellber Ruan:</strong> mais conhecido como Bim, especialista em CRM e Retenção de Clientes, criador da marca Meia na Canela, Analista de Mercado na Dito CRM, graduando em Relações Públicas pela Una e totalmente pirado pelas conexões humanas.<br><br>
-              </p>
+              <h2 class="text-green">Palestrantes</h2>
+              <div>
+                <p>
+                  <strong>Denise do Vale:</strong> especialista em Relacionamento com o Cliente, Desenvolvimento e capacitação de pessoas, 
+                  specialista em Customer Success. Atualmente representa o CS e atua em estratégias de Growth Hacking  na Revex.
+                </p>
+                <p>
+                  <strong>Kellber Ruan:</strong> mais conhecido como Bim, especialista em CRM e Retenção de Clientes, criador da marca Meia na Canela, 
+                  Analista de Mercado na Dito CRM, graduando em Relações Públicas pela Una e totalmente pirado pelas conexões humanas.
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-12 d-flex jstify-content-between mt-5">
-
           <div onclick="openAttendance()" class="d-flex flex-column pr-5 attendance">
-            <h2>Atendimento</h2>
-            <p>Saiba quais são as melhores práticas e ferramentas do mercado e como utilizá-las para aumentar os níveis de satisfação dos seus clientes.
-
+            <h2 class="text-blue">Atendimento</h2>
+            <p>
+              Saiba quais são as melhores práticas e ferramentas do mercado e como utilizá-las para aumentar os níveis de satisfação dos seus clientes.
             </p>
           </div>
           <div onclick="openSuccess()" class="d-flex flex-column pl-5 success">
-            <h2>Sucesso do cliente</h2>
-            <p> Entenda como o cliente utiliza o seu produto e ensine-o todas as funcionalidades, ganhando valor agregado e satisfação durante a experiência
-
+            <h2 class="text-blue">Sucesso do cliente</h2>
+            <p> 
+              Entenda como o cliente utiliza o seu produto e ensine-o todas as funcionalidades, ganhando valor agregado e satisfação durante a experiência
             </p>
           </div>
         </div>
       </div>
     </div>
     <div class="row flex-column justify-content-center">
-           <div class="container mb-5">
+      <div class="container mb-5">
         <div class="col-md-6">
           <h4>
-                Aprenda a satisfazer seus clientes de maneira tão plena que eles se tornarão os melhores vendedores do seu negócio.
+            Aprenda a satisfazer seus clientes de maneira tão plena que eles se tornarão os melhores vendedores do seu negócio.
           </h4>
           <button onclick="openSympla()" class="btn-blue">Compre seu ingresso</button>
         </div>
@@ -69,14 +80,14 @@
     </div>
     <div class="row align-items-center">
       <div class="container d-flex flex-row">
-        <div class="col-md-3">
-            <img src="assets/img/writer.jpeg" class="back-writer">
-          </div>
-          <div class="col-md-9">
-            <h4>
-                    Garanta já o seu ingresso através da plataforma Sympla.
-            </h4>
-            <div id="sympla-widget-707589" height="auto"></div> <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/707589"></script>
+        <div class="col-md-3 d-flex align-items-center">
+          <img src="assets/img/writer.jpeg" class="back-writer">
+        </div>
+        <div class="col-md-9">
+          <h4>
+            Garanta já o seu ingresso através da plataforma Sympla
+          </h4>
+          <div id="sympla-widget-707589" height="auto"></div> <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/707589"></script>
         </div>
       </div>
     </div>
@@ -94,47 +105,7 @@
     window.location.assign("teste.html")
   }
 </script>
-
 <style lang="css">
-    p {
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.56;
-  letter-spacing: normal;
-  text-align: justify;
-  color: #707070;
-}
- h4 {
-    font-family: Impact;
-  font-size: 29px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.23;
-  letter-spacing: normal;
-  text-align: left;
-  color: whitesmoke;
-}
-    h1{
-    font-family: Impact;
-    font-size: 33px;
-    color: #1a2438;
-    }
-    h2{
-    font-family: SegoeUI;
-    text-justify: auto;
-    font-family: Impact;
-    font-size: 33px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.23;
-    letter-spacing: normal;
-    text-align: left;
-    color: #1a2438
-}
   .container {
     width: 100%;
     padding-right: 15px;
@@ -143,7 +114,7 @@
     margin-left: auto;
   }
   button {
-    outline: none;
+    outline: none !important;
     border: none;
     border-radius: 5px;
     background-color: #bbd303;
@@ -157,28 +128,78 @@
   }
   .row:nth-child(1) {
     position: relative;
+    background-color: #3d4556;
+    display: block;
     min-height: 60rem;
+  }
+  .row:nth-child(1)::before {
+    content: "";
     background-image: url("assets/img/people-2567915_1920.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-attachment: fixed;
+    position: absolute;
+    opacity: .1;
+    width: 100%;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
   }
   .row:nth-child(1) h1 {
     color: #ffff;
+    font-family: Impact;
+    font-size: 46px;
+  }
+    .row:nth-child(1) h2 {
+    color:#ffff;
+    font-family: Impact;
+    font-size: 17px;
+  }
+  .row:nth-child(1) a {
+    color: #ffff;
+    font-size: 14px;
+    text-decoration: none;
   }
   .row:nth-child(1) .container {
     z-index: 99;
   }
-  .row:nth-child(1)::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: #3d4556;
-    position: absolute;
-    opacity: 0.7;
-  }
   .row:nth-child(2) {
     position: relative;
     min-height: 55rem;
+  }
+  .row:nth-child(2) p {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #707070;
+  }
+  .row:nth-child(2) .text-green {
+    font-family: SegoeUI;
+    text-justify: auto;
+    font-family: Impact;
+    font-size: 33px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #bbd303;
+  }
+  .row:nth-child(2) .text-blue {
+    font-family: SegoeUI;
+    text-justify: auto;
+    font-family: Impact;
+    font-size: 33px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a2438;
   }
   .row:nth-child(2) .bolotinha {
     position: absolute;
@@ -193,21 +214,23 @@
   .row:nth-child(2) .success {
     cursor: pointer;
   }
-  .row:nth-child(2) .bolotinha1 {
-    position: absolute;
-    z-index: auto;
-    width: 100px;
-    bottom: -10rem;
-    left: -3rem;
-  }
   .row:nth-child(2) .palestra {
-    width: 240px;
+    width: 280px;
     position: absolute;
-    top: -24rem;
+    top: -12rem;
+    border-radius: 50%;
     left: 0;
-}
+  }
+  .row:nth-child(2) .dito {
+    width: 280px;
+    position: absolute;
+    top: 20rem;
+    border-radius: 50%;
+    left: 6rem;
+  }
   .row:nth-child(2) .col-md-12:nth-child(2) {
-    margin: 10rem 0 !important;
+    margin-top: 28rem !important;
+    margin-bottom: 10rem;
   }
   .row:nth-child(2) p {
     max-width: 95rem;
@@ -216,9 +239,31 @@
     background-color: #bbd303;
     min-height: 35rem;
   }
+  .row:nth-child(3) h4 {
+    font-family: Impact;
+    font-size: 29px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: whitesmoke;
+  }
   .row:nth-child(4) {
     background-color: #3d4556;
     min-height: 35rem;
+  }
+  .row:nth-child(4) h4 {
+    font-family: Impact;
+    font-size: 29px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: whitesmoke;
   }
   .open-mymodal {
     display: flex;
@@ -245,7 +290,7 @@
     border-radius: 10px;
   }
   .back-writer {
-    width: 315px;
+    width: 300px;
   }
   @media (min-width: 1200px) {
     .container {
